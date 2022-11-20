@@ -1,0 +1,2 @@
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ar qc libdht.a  CMakeFiles/dht.dir/dht.c.o
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ranlib libdht.a

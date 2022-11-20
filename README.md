@@ -14,3 +14,20 @@ Support IPv6 NAT based on netfilter
 Support WireGuard integrated in kernel
 Support fullcone NAT (by Chion82)
 Support LED&GPIO control via sysfs
+
+
+
+固件默认wifi名称
+ - 2.4G：机器名_mac地址最后四位，如K2P_9981
+ - 5G：机器名_5G_mac地址最后四位，如K2P_5G_9981
+
+wifi密码
+ - 1234567890
+
+管理地址
+ - 192.168.2.1
+
+管理账号密码
+ - admin
+ - admin
+ 

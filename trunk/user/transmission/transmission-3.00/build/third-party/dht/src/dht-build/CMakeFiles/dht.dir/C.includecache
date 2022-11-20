@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht/dht.c
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+stdarg.h
+-
+sys/time.h
+-
+unistd.h
+-
+fcntl.h
+-
+arpa/inet.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+ws2tcpip.h
+-
+windows.h
+-
+dht.h
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht/dht.h
+
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht/dht.h
+

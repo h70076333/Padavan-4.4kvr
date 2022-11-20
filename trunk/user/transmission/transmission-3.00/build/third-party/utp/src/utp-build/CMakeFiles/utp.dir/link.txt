@@ -1,0 +1,2 @@
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ar qc libutp.a  CMakeFiles/utp.dir/utp.cpp.o CMakeFiles/utp.dir/utp_utils.cpp.o
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ranlib libutp.a

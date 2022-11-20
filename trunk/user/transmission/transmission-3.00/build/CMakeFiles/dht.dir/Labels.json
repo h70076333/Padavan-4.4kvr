@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/dht"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/dht.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/dht-complete.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-install.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-mkdir.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-download.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-update.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-patch.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-configure.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/src/dht-stamp/dht-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dht"
+		],
+		"name" : "dht"
+	}
+}

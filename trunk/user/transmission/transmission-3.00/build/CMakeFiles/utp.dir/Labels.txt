@@ -1,0 +1,13 @@
+# Target labels
+ utp
+# Source files and their labels
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp-complete.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-install.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-mkdir.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-download.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-update.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-patch.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-configure.rule
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-build.rule

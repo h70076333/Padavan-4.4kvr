@@ -1,0 +1,222 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.15.0-52-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++ 
+Build flags: -Os;-fomit-frame-pointer;-pipe;;-Dlinux;-D__linux__;-Dunix;-DEMBED;-I/home/haifon/Padavan-4.4/trunk/stage/include;-Wall;-Wno-trigraphs;-Wno-strict-aliasing;-Wno-format-security;-fno-tree-slsr;-fno-aggressive-loop-optimizations
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12572/fast && make[6]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_12572.dir/build.make CMakeFiles/cmTC_12572.dir/build
+make[7]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_12572.dir/testCXXCompiler.cxx.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_12572.dir/testCXXCompiler.cxx.o -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_12572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12572.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_12572.dir/testCXXCompiler.cxx.o  -o cmTC_12572 
+make[7]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp”
+make[6]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2163/fast && make[6]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2163.dir/build.make CMakeFiles/cmTC_f2163.dir/build
+make[7]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1plus -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D_GNU_SOURCE -D linux -D __linux__ -D unix -D EMBED /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -Os -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -o - |
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32
+GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"
+ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/haifon/Padavan-4.4/trunk/stage/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6ed74bea86319ad73fce4082bed6cf0b
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+Linking CXX executable cmTC_f2163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2163.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -v -rdynamic CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2163 
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++
+COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_f2163' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_f2163 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_f2163' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+make[7]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp'
+make[6]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/haifon/Padavan-4.4/trunk/stage/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/haifon/Padavan-4.4/trunk/stage/include] ==> [/home/haifon/Padavan-4.4/trunk/stage/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/backward]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/home/haifon/Padavan-4.4/trunk/stage/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/backward;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f2163/fast && make[6]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f2163.dir/build.make CMakeFiles/cmTC_f2163.dir/build]
+  ignore line: [make[7]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1plus -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D_GNU_SOURCE -D linux -D __linux__ -D unix -D EMBED /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -Os -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -o - |]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/haifon/Padavan-4.4/trunk/stage/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6ed74bea86319ad73fce4082bed6cf0b]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking CXX executable cmTC_f2163]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2163.dir/link.txt --verbose=1]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl --gc-sections -v -rdynamic CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2163 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_f2163' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_f2163 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2] ==> ignore
+    arg [--sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2163] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/haifon/Padavan-4.4/trunk/stage/lib] ==> dir [/home/haifon/Padavan-4.4/trunk/stage/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_f2163.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/haifon/Padavan-4.4/trunk/stage/lib] ==> [/home/haifon/Padavan-4.4/trunk/stage/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/haifon/Padavan-4.4/trunk/stage/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+

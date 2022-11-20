@@ -1,0 +1,7 @@
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/install/strip.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/install/local.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/install.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/list_install_components.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/rebuild_cache.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/edit_cache.dir
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-build/CMakeFiles/utp.dir

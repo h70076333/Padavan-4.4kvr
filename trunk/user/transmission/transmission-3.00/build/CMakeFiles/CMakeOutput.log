@@ -1,0 +1,928 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.15.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc 
+Build flags: -Os;-fomit-frame-pointer;-pipe;;-Dlinux;-D__linux__;-Dunix;-DEMBED;-I/home/haifon/Padavan-4.4/trunk/stage/include;-Wall;-Wno-trigraphs;-Wno-strict-aliasing;-Wno-format-security;-fno-tree-slsr;-fno-aggressive-loop-optimizations;-Wno-pointer-sign;-Wno-unused;-O2;-ffunction-sections;-fdata-sections;-fvisibility=hidden;-D_LARGEFILE64_SOURCE;-D_LFS64_LARGEFILE;-Wno-implicit-fallthrough;-O2;-ffunction-sections;-fdata-sections;-fvisibility=hidden;-D_LARGEFILE64_SOURCE;-D_LFS64_LARGEFILE;-Wno-implicit-fallthrough
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++ 
+Build flags: -Os;-fomit-frame-pointer;-pipe;;-Dlinux;-D__linux__;-Dunix;-DEMBED;-I/home/haifon/Padavan-4.4/trunk/stage/include;-Wall;-Wno-trigraphs;-Wno-strict-aliasing;-Wno-format-security;-fno-tree-slsr;-fno-aggressive-loop-optimizations;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d26a/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_0d26a.dir/build.make CMakeFiles/cmTC_0d26a.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0d26a.dir/testCCompiler.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_0d26a.dir/testCCompiler.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0d26a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d26a.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_0d26a.dir/testCCompiler.c.o  -o cmTC_0d26a 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0596/fast && make[4]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c0596.dir/build.make CMakeFiles/cmTC_c0596.dir/build
+make[5]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1 -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D linux -D __linux__ -D unix -D EMBED -D _LARGEFILE64_SOURCE -D _LFS64_LARGEFILE -D _LARGEFILE64_SOURCE -D _LFS64_LARGEFILE /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o -Os -O2 -O2 -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -Wno-pointer-sign -Wno-unused -Wimplicit-fallthrough=0 -Wimplicit-fallthrough=0 -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -fvisibility=hidden -ffunction-sections -fdata-sections -fvisibility=hidden -o - |
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32
+GNU C11 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"
+ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/haifon/Padavan-4.4/trunk/stage/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C11 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b2ae07d04e8331f93c2dc6523d6cf3ee
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+Linking C executable cmTC_c0596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0596.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections -v -rdynamic CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o  -o cmTC_c0596 
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc
+COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_c0596' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_c0596 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections --gc-sections CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_c0596' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+make[5]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/haifon/Padavan-4.4/trunk/stage/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/haifon/Padavan-4.4/trunk/stage/include] ==> [/home/haifon/Padavan-4.4/trunk/stage/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/home/haifon/Padavan-4.4/trunk/stage/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c0596/fast && make[4]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c0596.dir/build.make CMakeFiles/cmTC_c0596.dir/build]
+  ignore line: [make[5]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1 -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D linux -D __linux__ -D unix -D EMBED -D _LARGEFILE64_SOURCE -D _LFS64_LARGEFILE -D _LARGEFILE64_SOURCE -D _LFS64_LARGEFILE /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o -Os -O2 -O2 -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -Wno-pointer-sign -Wno-unused -Wimplicit-fallthrough=0 -Wimplicit-fallthrough=0 -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -fvisibility=hidden -ffunction-sections -fdata-sections -fvisibility=hidden -o - |]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32]
+  ignore line: [GNU C11 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/haifon/Padavan-4.4/trunk/stage/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b2ae07d04e8331f93c2dc6523d6cf3ee]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking C executable cmTC_c0596]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0596.dir/link.txt --verbose=1]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl --gc-sections -Wl --gc-sections -v -rdynamic CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o  -o cmTC_c0596 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-Wno-pointer-sign' '-Wno-unused' '-O2' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-O2' '-ffunction-sections' '-fdata-sections' '-fvisibility=hidden' '-D' '_LARGEFILE64_SOURCE' '-D' '_LFS64_LARGEFILE' '-Wimplicit-fallthrough=0' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_c0596' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_c0596 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections --gc-sections CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2] ==> ignore
+    arg [--sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c0596] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/haifon/Padavan-4.4/trunk/stage/lib] ==> dir [/home/haifon/Padavan-4.4/trunk/stage/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_c0596.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/haifon/Padavan-4.4/trunk/stage/lib] ==> [/home/haifon/Padavan-4.4/trunk/stage/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/haifon/Padavan-4.4/trunk/stage/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_37f9c/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_37f9c.dir/build.make CMakeFiles/cmTC_37f9c.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_37f9c.dir/testCXXCompiler.cxx.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_37f9c.dir/testCXXCompiler.cxx.o -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_37f9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f9c.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_37f9c.dir/testCXXCompiler.cxx.o  -o cmTC_37f9c 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f402/fast && make[4]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9f402.dir/build.make CMakeFiles/cmTC_9f402.dir/build
+make[5]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1plus -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D_GNU_SOURCE -D linux -D __linux__ -D unix -D EMBED /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -Os -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -o - |
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32
+GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"
+ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"
+ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/haifon/Padavan-4.4/trunk/stage/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6ed74bea86319ad73fce4082bed6cf0b
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+Linking CXX executable cmTC_9f402
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f402.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections -v -rdynamic CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f402 
+Using built-in specs.
+COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++
+COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper
+Target: mipsel-linux-uclibc
+Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld
+Thread model: posix
+gcc version 7.4.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/
+LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_9f402' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_9f402 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections --gc-sections CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_9f402' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL'
+make[5]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/haifon/Padavan-4.4/trunk/stage/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+    add: [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/haifon/Padavan-4.4/trunk/stage/include] ==> [/home/haifon/Padavan-4.4/trunk/stage/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/backward]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include]
+  collapse include dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/home/haifon/Padavan-4.4/trunk/stage/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include/c++/7.4.0/backward;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/include;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9f402/fast && make[4]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9f402.dir/build.make CMakeFiles/cmTC_9f402.dir/build]
+  ignore line: [make[5]: Entering directory '/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++    -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations    -mips32r2 -march=mips32r2 -mtune=1004kc -v -o CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/cc1plus -quiet -v -I /home/haifon/Padavan-4.4/trunk/stage/include -iprefix /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/ -isysroot /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot -D_GNU_SOURCE -D linux -D __linux__ -D unix -D EMBED /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -march=mips32r2 -mtune=1004kc -mabi=32 -mhard-float -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -Os -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -version -fomit-frame-pointer -fno-tree-slsr -fno-aggressive-loop-optimizations -o - |]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/as -v -I /home/haifon/Padavan-4.4/trunk/stage/include -EL -mips32r2 -O2 -no-mdebug -mabi=32 -march=mips32r2 -mno-shared -mtune=1004kc -mhard-float -KPIC -o CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.32 (mipsel-linux-uclibc) using BFD version (crosstool-NG 1.24.0) 2.32]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/../../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/haifon/Padavan-4.4/trunk/stage/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/mipsel-linux-uclibc]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include/c++/7.4.0/backward]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/include-fixed]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/include]
+  ignore line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 7.4.0 (mipsel-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6ed74bea86319ad73fce4082bed6cf0b]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-mips32r2' '-march=mips32r2' '-mtune=1004kc' '-v' '-o' 'CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking CXX executable cmTC_9f402]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f402.dir/link.txt --verbose=1]
+  ignore line: [/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++  -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl --gc-sections -Wl --gc-sections -v -rdynamic CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f402 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/lto-wrapper]
+  ignore line: [Target: mipsel-linux-uclibc]
+  ignore line: [Configured with: /home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mipsel-linux-uclibc --prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x --with-sysroot=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-languages=c,c++ --with-abi=32 --with-tune=mips32r2 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpfr=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-mpc=/home/hanwckf/pdv-4.4/toolchain-mipsel/.build/mipsel-linux-uclibc/buildtools --with-isl=no --with-cloog=no --disable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --enable-tls --disable-multilib --with-local-prefix=/home/hanwckf/pdv-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot --enable-long-long --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib/:/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-fomit-frame-pointer' '-pipe' '-D' 'linux' '-D' '__linux__' '-D' 'unix' '-D' 'EMBED' '-I' '/home/haifon/Padavan-4.4/trunk/stage/include' '-Wall' '-Wno-trigraphs' '-Wno-strict-aliasing' '-Wno-format-security' '-fno-tree-slsr' '-fno-aggressive-loop-optimizations' '-L/home/haifon/Padavan-4.4/trunk/stage/lib' '-v' '-rdynamic' '-o' 'cmTC_9f402' '-shared-libgcc' '-mtune=mips32r2' '-mabi=32' '-mhard-float' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2 --sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_9f402 /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o -L/home/haifon/Padavan-4.4/trunk/stage/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0 -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib -L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib --gc-sections --gc-sections CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o /home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../libexec/gcc/mipsel-linux-uclibc/7.4.0/collect2] ==> ignore
+    arg [--sysroot=/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9f402] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/haifon/Padavan-4.4/trunk/stage/lib] ==> dir [/home/haifon/Padavan-4.4/trunk/stage/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib]
+    arg [-L/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_9f402.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/crtend.o] ==> ignore
+    arg [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/haifon/Padavan-4.4/trunk/stage/lib] ==> [/home/haifon/Padavan-4.4/trunk/stage/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib]
+  collapse library dir [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../mipsel-linux-uclibc/sysroot/usr/lib] ==> [/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/haifon/Padavan-4.4/trunk/stage/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc/mipsel-linux-uclibc/7.4.0;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/lib/gcc;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/lib;/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/mipsel-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4984a/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4984a.dir/build.make CMakeFiles/cmTC_4984a.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4984a.dir/CheckIncludeFile.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_4984a.dir/CheckIncludeFile.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4984a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4984a.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4984a.dir/CheckIncludeFile.c.o  -o cmTC_4984a 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d525/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9d525.dir/build.make CMakeFiles/cmTC_9d525.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9d525.dir/src.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -DCMAKE_HAVE_LIBC_PTHREAD   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_9d525.dir/src.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9d525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d525.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -DCMAKE_HAVE_LIBC_PTHREAD  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9d525.dir/src.c.o  -o cmTC_9d525 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file sys/inotify.h exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ce938/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ce938.dir/build.make CMakeFiles/cmTC_ce938.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ce938.dir/CheckIncludeFile.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_ce938.dir/CheckIncludeFile.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ce938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce938.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_ce938.dir/CheckIncludeFile.c.o  -o cmTC_ce938 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function inotify_init exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a58d2/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a58d2.dir/build.make CMakeFiles/cmTC_a58d2.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a58d2.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -DCHECK_FUNCTION_EXISTS=inotify_init   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_a58d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a58d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a58d2.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -DCHECK_FUNCTION_EXISTS=inotify_init  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a58d2.dir/CheckFunctionExists.c.o  -o cmTC_a58d2 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test FILE_OFFSET_BITS_LFS_MACRO_REQUIRED succeeded with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_256db/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_256db.dir/build.make CMakeFiles/cmTC_256db.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_256db.dir/src.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DFILE_OFFSET_BITS_LFS_MACRO_REQUIRED   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_256db.dir/src.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:5:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+         int main() { return 0; }
+             ^~~~
+Linking C executable cmTC_256db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_256db.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DFILE_OFFSET_BITS_LFS_MACRO_REQUIRED  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_256db.dir/src.c.o  -o cmTC_256db 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#define _FILE_OFFSET_BITS 64 
+        #include <sys/types.h>
+        #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+        int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+        int main() { return 0; }
+    
+Determining if the include file sys/statvfs.h exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b11c/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4b11c.dir/build.make CMakeFiles/cmTC_4b11c.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4b11c.dir/CheckIncludeFile.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_4b11c.dir/CheckIncludeFile.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4b11c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b11c.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes   -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4b11c.dir/CheckIncludeFile.c.o  -o cmTC_4b11c 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function canonicalize_file_name exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb05e/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_cb05e.dir/build.make CMakeFiles/cmTC_cb05e.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cb05e.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=canonicalize_file_name   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_cb05e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb05e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb05e.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=canonicalize_file_name  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_cb05e.dir/CheckFunctionExists.c.o  -o cmTC_cb05e 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function daemon exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5befb/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5befb.dir/build.make CMakeFiles/cmTC_5befb.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5befb.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=daemon   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_5befb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5befb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5befb.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=daemon  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_5befb.dir/CheckFunctionExists.c.o  -o cmTC_5befb 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function fallocate64 exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26fee/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_26fee.dir/build.make CMakeFiles/cmTC_26fee.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_26fee.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=fallocate64   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_26fee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26fee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26fee.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=fallocate64  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_26fee.dir/CheckFunctionExists.c.o  -o cmTC_26fee 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7840/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_c7840.dir/build.make CMakeFiles/cmTC_c7840.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c7840.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=flock   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_c7840.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7840.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=flock  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_c7840.dir/CheckFunctionExists.c.o  -o cmTC_c7840 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function getmntent exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eacf3/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_eacf3.dir/build.make CMakeFiles/cmTC_eacf3.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_eacf3.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=getmntent   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_eacf3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eacf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eacf3.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=getmntent  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_eacf3.dir/CheckFunctionExists.c.o  -o cmTC_eacf3 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function getpagesize exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a25d0/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a25d0.dir/build.make CMakeFiles/cmTC_a25d0.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a25d0.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=getpagesize   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_a25d0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a25d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25d0.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=getpagesize  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a25d0.dir/CheckFunctionExists.c.o  -o cmTC_a25d0 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0619/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_d0619.dir/build.make CMakeFiles/cmTC_d0619.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d0619.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=localtime_r   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_d0619.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d0619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0619.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=localtime_r  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d0619.dir/CheckFunctionExists.c.o  -o cmTC_d0619 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function memmem exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2013a/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2013a.dir/build.make CMakeFiles/cmTC_2013a.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2013a.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=memmem   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_2013a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2013a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2013a.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=memmem  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_2013a.dir/CheckFunctionExists.c.o  -o cmTC_2013a 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function mkdtemp exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10e5e/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_10e5e.dir/build.make CMakeFiles/cmTC_10e5e.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_10e5e.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=mkdtemp   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_10e5e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10e5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10e5e.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=mkdtemp  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_10e5e.dir/CheckFunctionExists.c.o  -o cmTC_10e5e 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function posix_fadvise exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7bca8/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7bca8.dir/build.make CMakeFiles/cmTC_7bca8.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7bca8.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_fadvise   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_7bca8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7bca8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bca8.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_fadvise  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_7bca8.dir/CheckFunctionExists.c.o  -o cmTC_7bca8 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function posix_fallocate exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4e47/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f4e47.dir/build.make CMakeFiles/cmTC_f4e47.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f4e47.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_fallocate   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_f4e47.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4e47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e47.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_fallocate  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f4e47.dir/CheckFunctionExists.c.o  -o cmTC_f4e47 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6aec/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e6aec.dir/build.make CMakeFiles/cmTC_e6aec.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e6aec.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_memalign   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_e6aec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'posix_memalign' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e6aec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6aec.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=posix_memalign  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e6aec.dir/CheckFunctionExists.c.o  -o cmTC_e6aec 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5f55/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_d5f55.dir/build.make CMakeFiles/cmTC_d5f55.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d5f55.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pread   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_d5f55.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5f55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f55.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pread  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d5f55.dir/CheckFunctionExists.c.o  -o cmTC_d5f55 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_038ae/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_038ae.dir/build.make CMakeFiles/cmTC_038ae.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_038ae.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pwrite   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_038ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_038ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_038ae.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pwrite  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_038ae.dir/CheckFunctionExists.c.o  -o cmTC_038ae 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function statvfs exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e1b5/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7e1b5.dir/build.make CMakeFiles/cmTC_7e1b5.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7e1b5.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=statvfs   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_7e1b5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e1b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e1b5.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=statvfs  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_7e1b5.dir/CheckFunctionExists.c.o  -o cmTC_7e1b5 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strcasestr exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84a7c/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_84a7c.dir/build.make CMakeFiles/cmTC_84a7c.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_84a7c.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strcasestr   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_84a7c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_84a7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a7c.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strcasestr  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_84a7c.dir/CheckFunctionExists.c.o  -o cmTC_84a7c 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e521f/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e521f.dir/build.make CMakeFiles/cmTC_e521f.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e521f.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strlcpy   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_e521f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e521f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e521f.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strlcpy  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e521f.dir/CheckFunctionExists.c.o  -o cmTC_e521f 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0ebf/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e0ebf.dir/build.make CMakeFiles/cmTC_e0ebf.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e0ebf.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strsep   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_e0ebf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0ebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ebf.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strsep  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e0ebf.dir/CheckFunctionExists.c.o  -o cmTC_e0ebf 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function syslog exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e4a6/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5e4a6.dir/build.make CMakeFiles/cmTC_5e4a6.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5e4a6.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=syslog   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_5e4a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e4a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e4a6.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=syslog  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_5e4a6.dir/CheckFunctionExists.c.o  -o cmTC_5e4a6 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function valloc exists passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38172/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_38172.dir/build.make CMakeFiles/cmTC_38172.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_38172.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=valloc   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_38172.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38172.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=valloc  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_38172.dir/CheckFunctionExists.c.o  -o cmTC_38172 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90130/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_90130.dir/build.make CMakeFiles/cmTC_90130.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_90130.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqrt   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_90130.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'sqrt' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_90130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90130.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqrt  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_90130.dir/CheckFunctionExists.c.o  -o cmTC_90130  -lm 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function socket exists in the c passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08e1e/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_08e1e.dir/build.make CMakeFiles/cmTC_08e1e.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_08e1e.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=socket   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_08e1e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08e1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08e1e.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=socket  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_08e1e.dir/CheckFunctionExists.c.o  -o cmTC_08e1e  -lc 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function gethostbyname exists in the c passed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2d2dc/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2d2dc.dir/build.make CMakeFiles/cmTC_2d2dc.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2d2dc.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=gethostbyname   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_2d2dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2d2dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d2dc.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=gethostbyname  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_2d2dc.dir/CheckFunctionExists.c.o  -o cmTC_2d2dc  -lc 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+

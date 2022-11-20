@@ -1,0 +1,2 @@
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ar qc libb64.a  CMakeFiles/b64.dir/src/cdecode.c.o CMakeFiles/b64.dir/src/cencode.c.o
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-ranlib libb64.a

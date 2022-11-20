@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/utp-complete.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-install.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-mkdir.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-download.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-update.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-patch.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-configure.rule"
+		},
+		{
+			"file" : "/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/utp/src/utp-stamp/utp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"utp"
+		],
+		"name" : "utp"
+	}
+}

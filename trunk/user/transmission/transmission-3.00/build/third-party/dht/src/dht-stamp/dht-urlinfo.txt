@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/third-party/dht'
+tag=''

@@ -1,0 +1,264 @@
+Performing C SOURCE FILE Test ICONV_SECOND_ARGUMENT_IS_CONST failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ffd3/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_0ffd3.dir/build.make CMakeFiles/cmTC_0ffd3.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0ffd3.dir/src.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -DICONV_SECOND_ARGUMENT_IS_CONST   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_0ffd3.dir/src.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:10:25: warning: passing argument 2 of 'libiconv' from incompatible pointer type [-Wincompatible-pointer-types]
+             iconv(conv, &in, &ilen, &out, &olen);
+                         ^
+In file included from /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/home/haifon/Padavan-4.4/trunk/stage/include/iconv.h:80:15: note: expected 'char **' but argument is of type 'const char **'
+ #define iconv libiconv
+               ^
+/home/haifon/Padavan-4.4/trunk/stage/include/iconv.h:82:15: note: in expansion of macro 'iconv'
+ extern size_t iconv (iconv_t cd,  char* * inbuf, size_t *inbytesleft, char* * outbuf, size_t *outbytesleft);
+               ^~~~~
+Linking C executable cmTC_0ffd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ffd3.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -DICONV_SECOND_ARGUMENT_IS_CONST  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_0ffd3.dir/src.c.o  -o cmTC_0ffd3  /home/haifon/Padavan-4.4/trunk/stage/lib/libiconv.so 
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+        #include <iconv.h>
+        int main()
+        {
+            iconv_t conv = 0;
+            const char * in = 0;
+            size_t ilen = 0;
+            char * out = 0;
+            size_t olen = 0;
+            iconv(conv, &in, &ilen, &out, &olen);
+            return 0;
+        }
+Determining if files sys/types.h;sys/event.h exist failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64c61/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_64c61.dir/build.make CMakeFiles/cmTC_64c61.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_64c61.dir/HAVE_SYS_EVENT_H.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_64c61.dir/HAVE_SYS_EVENT_H.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EVENT_H.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EVENT_H.c:3:10: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_64c61.dir/build.make:66：CMakeFiles/cmTC_64c61.dir/HAVE_SYS_EVENT_H.c.o] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_64c61/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+
+
+int main(void){return 0;}
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9dce5/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9dce5.dir/build.make CMakeFiles/cmTC_9dce5.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9dce5.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -DCHECK_FUNCTION_EXISTS=kqueue   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_9dce5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dce5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dce5.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -DCHECK_FUNCTION_EXISTS=kqueue  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9dce5.dir/CheckFunctionExists.c.o  -o cmTC_9dce5 
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CMakeFiles/cmTC_9dce5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `kqueue'
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CheckFunctionExists.c:(.text.startup.main+0x28): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+make[5]: *** [CMakeFiles/cmTC_9dce5.dir/build.make:87：cmTC_9dce5] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_9dce5/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test NO_LFS_MACROS_REQUIRED failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9feb/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a9feb.dir/build.make CMakeFiles/cmTC_a9feb.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a9feb.dir/src.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DNO_LFS_MACROS_REQUIRED   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_a9feb.dir/src.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:3:41: warning: left shift count >= width of type [-Wshift-count-overflow]
+         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                                         ^
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:4:29: note: in expansion of macro 'LARGE_OFF_T'
+         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                             ^~~~~~~~~~~
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:3:65: warning: left shift count >= width of type [-Wshift-count-overflow]
+         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                                                                 ^
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:4:29: note: in expansion of macro 'LARGE_OFF_T'
+         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                             ^~~~~~~~~~~
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:3:41: warning: left shift count >= width of type [-Wshift-count-overflow]
+         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                                         ^
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:4:64: note: in expansion of macro 'LARGE_OFF_T'
+         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                                                                ^~~~~~~~~~~
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:3:65: warning: left shift count >= width of type [-Wshift-count-overflow]
+         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                                                                 ^
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:4:64: note: in expansion of macro 'LARGE_OFF_T'
+         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                                                                ^~~~~~~~~~~
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:4:13: error: variably modified 'off_t_is_large' at file scope
+         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+             ^~~~~~~~~~~~~~
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/src.c:5:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+         int main() { return 0; }
+             ^~~~
+make[5]: *** [CMakeFiles/cmTC_a9feb.dir/build.make:66：CMakeFiles/cmTC_a9feb.dir/src.c.o] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_a9feb/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+        #include <sys/types.h>
+        #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+        int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+        int main() { return 0; }
+    
+Determining if the include file xfs/xfs.h exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6466a/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_6466a.dir/build.make CMakeFiles/cmTC_6466a.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6466a.dir/CheckIncludeFile.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_6466a.dir/CheckIncludeFile.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: xfs/xfs.h: No such file or directory
+ #include <xfs/xfs.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_6466a.dir/build.make:66：CMakeFiles/cmTC_6466a.dir/CheckIncludeFile.c.o] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_6466a/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58b52/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_58b52.dir/build.make CMakeFiles/cmTC_58b52.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_58b52.dir/CheckIncludeFile.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes    -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_58b52.dir/CheckIncludeFile.c.o   -c /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: xlocale.h: No such file or directory
+ #include <xlocale.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_58b52.dir/build.make:66：CMakeFiles/cmTC_58b52.dir/CheckIncludeFile.c.o] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_58b52/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function _configthreadlocale exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_312fc/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_312fc.dir/build.make CMakeFiles/cmTC_312fc.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_312fc.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=_configthreadlocale   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_312fc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_312fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_312fc.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=_configthreadlocale  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_312fc.dir/CheckFunctionExists.c.o  -o cmTC_312fc 
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CMakeFiles/cmTC_312fc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `_configthreadlocale'
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CheckFunctionExists.c:(.text.startup.main+0x28): undefined reference to `_configthreadlocale'
+collect2: error: ld returned 1 exit status
+make[5]: *** [CMakeFiles/cmTC_312fc.dir/build.make:87：cmTC_312fc] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_312fc/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function htonll exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_933a9/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_933a9.dir/build.make CMakeFiles/cmTC_933a9.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_933a9.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=htonll   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_933a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_933a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_933a9.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=htonll  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_933a9.dir/CheckFunctionExists.c.o  -o cmTC_933a9 
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CMakeFiles/cmTC_933a9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `htonll'
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CheckFunctionExists.c:(.text.startup.main+0x28): undefined reference to `htonll'
+collect2: error: ld returned 1 exit status
+make[5]: *** [CMakeFiles/cmTC_933a9.dir/build.make:87：cmTC_933a9] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_933a9/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f91c9/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f91c9.dir/build.make CMakeFiles/cmTC_f91c9.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f91c9.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=ntohll   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_f91c9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f91c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f91c9.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=ntohll  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f91c9.dir/CheckFunctionExists.c.o  -o cmTC_f91c9 
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CMakeFiles/cmTC_f91c9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `ntohll'
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CheckFunctionExists.c:(.text.startup.main+0x28): undefined reference to `ntohll'
+collect2: error: ld returned 1 exit status
+make[5]: *** [CMakeFiles/cmTC_f91c9.dir/build.make:87：cmTC_f91c9] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_f91c9/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function uselocale exists failed with the following output:
+Change Dir: /home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_644ac/fast && make[4]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_644ac.dir/build.make CMakeFiles/cmTC_644ac.dir/build
+make[5]: 进入目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_644ac.dir/CheckFunctionExists.c.o
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc   -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=uselocale   -mips32r2 -march=mips32r2 -mtune=1004kc -o CMakeFiles/cmTC_644ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_644ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_644ac.dir/link.txt --verbose=1
+/home/haifon/Padavan-4.4/trunk/../toolchain-mipsel/toolchain-4.4.x/bin/mipsel-linux-uclibc-gcc -Os -fomit-frame-pointer -pipe  -Dlinux -D__linux__ -Dunix -DEMBED -I/home/haifon/Padavan-4.4/trunk/stage/include -Wall -Wno-trigraphs -Wno-strict-aliasing -Wno-format-security -fno-tree-slsr -fno-aggressive-loop-optimizations -Wno-pointer-sign -Wno-unused -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -O2 -ffunction-sections -fdata-sections -fvisibility=hidden -D_LARGEFILE64_SOURCE -D_LFS64_LARGEFILE -Wno-implicit-fallthrough -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/miniupnpc/include/ -I/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/../third-party/libnatpmp/ -Wall -W -Wcast-align -Wfloat-equal -Wmissing-format-attribute -Wpointer-arith -Wredundant-decls -Wundef -Wunused-parameter -Wwrite-strings -Wextra -Winit-self -Wformat-security -Winline -Wmissing-declarations -Wnested-externs -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=uselocale  -L/home/haifon/Padavan-4.4/trunk/stage/lib -Wl,--gc-sections -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_644ac.dir/CheckFunctionExists.c.o  -o cmTC_644ac 
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CMakeFiles/cmTC_644ac.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `uselocale'
+/home/haifon/Padavan-4.4/toolchain-mipsel/toolchain-4.4.x/bin/../lib/gcc/mipsel-linux-uclibc/7.4.0/../../../../mipsel-linux-uclibc/bin/ld: CheckFunctionExists.c:(.text.startup.main+0x28): undefined reference to `uselocale'
+collect2: error: ld returned 1 exit status
+make[5]: *** [CMakeFiles/cmTC_644ac.dir/build.make:87：cmTC_644ac] 错误 1
+make[5]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+make[4]: *** [Makefile:121：cmTC_644ac/fast] 错误 2
+make[4]: 离开目录“/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/CMakeFiles/CMakeTmp”
+
+
+

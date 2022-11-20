@@ -1,0 +1,2 @@
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/lib/libdht.a
+/home/haifon/Padavan-4.4/trunk/user/transmission/transmission-3.00/build/third-party/dht/include/dht/dht.h
